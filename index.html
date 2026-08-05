@@ -1,0 +1,995 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Harshit Attri — Software Engineer & Data Scientist</title>
+  <meta name="description"
+    content="Portfolio of Harshit Attri, a Software Engineer & Data Scientist specializing in AI-powered applications, machine learning pipelines, and full-stack solutions." />
+  <meta name="author" content="Harshit Attri" />
+  <meta name="keywords" content="Harshit Attri, Software Engineer, Data Scientist, Machine Learning, Python, React, LPU" />
+
+  <!-- Open Graph / Social -->
+  <meta property="og:title" content="Harshit Attri — Software Engineer & Data Scientist" />
+  <meta property="og:description" content="I build AI-powered applications, scalable web products, and data-driven solutions." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="profile.jpg" />
+
+  <link rel="icon" type="image/jpeg" href="profile.jpg" />
+
+  <!-- Google Fonts: Inter, Space Grotesk, JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <header id="header">
+    <nav class="navbar container">
+      <a href="#hero" class="nav-logo">
+        Harshit Attri<span class="dot">.</span>
+      </a>
+
+      <div class="nav-menu" id="nav-menu">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#hero" class="nav-link active">Home</a></li>
+          <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+          <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+          <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+          <li class="nav-item"><a href="#experience" class="nav-link">Experience</a></li>
+          <li class="nav-item"><a href="#certifications" class="nav-link">Certifications</a></li>
+          <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="nav-actions">
+        <button id="theme-toggle" class="icon-btn" aria-label="Toggle light/dark theme" title="Toggle theme">
+          <svg class="sun-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+          <svg class="moon-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+        </button>
+        <a href="resume.pdf" download class="btn btn-outline nav-resume-btn">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+          Resume
+        </a>
+        <button class="hamburger" id="hamburger" aria-label="Toggle navigation menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HERO SECTION -->
+    <section id="hero" class="hero-section">
+      <div class="container hero-container">
+        <div class="hero-content reveal">
+          <div class="status-badge">
+            <span class="status-pulse"></span>
+            <span class="status-text">Available for Software &amp; ML Roles</span>
+          </div>
+
+          <h1 class="hero-title">
+            Hi, I'm <span class="gradient-text">Harshit Attri</span>
+          </h1>
+
+          <p class="hero-subtitle">
+            Software Engineer &amp; Data Scientist
+          </p>
+
+          <p class="hero-pitch">
+            I build AI-powered applications, scalable web products, and data-driven solutions.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">
+              View Projects
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </a>
+            <a href="resume.pdf" download class="btn btn-secondary">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+              Download Resume
+            </a>
+          </div>
+
+          <div class="hero-socials">
+            <a href="https://github.com/harshit20-05" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="GitHub">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+              <span>GitHub</span>
+            </a>
+            <a href="https://linkedin.com/in/harshit-attri-" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="LinkedIn">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+              <span>LinkedIn</span>
+            </a>
+            <a href="mailto:attriharshit2005@gmail.com" class="social-link" aria-label="Email">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              <span>Email</span>
+            </a>
+          </div>
+
+          <div class="hero-stats">
+            <div class="stat-card">
+              <span class="stat-number" data-count="350" data-suffix="+">0</span>
+              <span class="stat-label">DSA Problems Solved</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-number" data-count="7" data-suffix="+">0</span>
+              <span class="stat-label">Featured Projects</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-number" data-count="5" data-suffix="">0</span>
+              <span class="stat-label">Certifications</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-number">7.5</span>
+              <span class="stat-label">Academic CGPA</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-visual reveal">
+          <div class="hero-image-wrapper">
+            <img src="profile.jpg" alt="Harshit Attri" class="hero-image" />
+            <div class="hero-image-border"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section id="about" class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">About Me</span>
+          <h2 class="section-title">Engineering logic &amp; <span class="gradient-text">data insights</span></h2>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-bio reveal">
+            <h3 class="about-heading">Professional Biography</h3>
+            <p>
+              I am a Computer Science Engineering student specializing in <strong>Data Science &amp; Machine Learning</strong> at Lovely Professional University. My passion lies in building scalable full-stack applications and deploying intelligent systems that transform complex data into actionable impact.
+            </p>
+            <p>
+              With over <strong>350+ Data Structure &amp; Algorithm problems solved</strong> across LeetCode and CodeChef, I have cultivated strong analytical rigor, algorithmic problem-solving capabilities, and structured software architecture design skills.
+            </p>
+            <p>
+              My hands-on experience includes developing full-stack HR reliability platforms, engineering computer vision safety systems, building AI resume analyzer platforms, and interning as a Data Analytics intern at W3 Grads.
+            </p>
+
+            <div class="goals-box">
+              <h4 class="goals-title">Current Focus &amp; Goals</h4>
+              <p class="goals-desc">
+                Deploying production-grade machine learning pipelines, building high-throughput REST APIs, and contributing to high-impact engineering teams at top-tier technology companies.
+              </p>
+            </div>
+
+            <!-- GitHub Contribution Heatmap Integration -->
+            <div class="github-activity">
+              <h4 class="github-title">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+                GitHub Activity Calendar
+              </h4>
+              <div class="calendar-wrapper">
+                <div class="calendar">
+                  <div class="calendar-loading">Loading GitHub contributions...</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="about-timeline reveal">
+            <h3 class="about-heading">Education &amp; Background</h3>
+            <div class="timeline">
+              <div class="timeline-item">
+                <div class="timeline-marker"></div>
+                <div class="timeline-content">
+                  <span class="timeline-period">2023 — Present</span>
+                  <h4 class="timeline-role">B.Tech in Computer Science Engineering</h4>
+                  <span class="timeline-org">Lovely Professional University · Punjab</span>
+                  <p class="timeline-desc">Specialization in Data Science &amp; Machine Learning. Current CGPA: 7.5. Coursework in Data Structures, Algorithms, DBMS, ML, and Software Engineering.</p>
+                </div>
+              </div>
+
+              <div class="timeline-item">
+                <div class="timeline-marker"></div>
+                <div class="timeline-content">
+                  <span class="timeline-period">2022 — 2023</span>
+                  <h4 class="timeline-role">Senior Secondary Education (Class XII)</h4>
+                  <span class="timeline-org">Ram Krishan Paramhans Sr. Sec. School · Rohtak</span>
+                  <p class="timeline-desc">Achieved 82% score with focus on Physics, Chemistry, and Mathematics.</p>
+                </div>
+              </div>
+
+              <div class="timeline-item">
+                <div class="timeline-marker"></div>
+                <div class="timeline-content">
+                  <span class="timeline-period">2020 — 2021</span>
+                  <h4 class="timeline-role">Secondary School Certificate (Class X)</h4>
+                  <span class="timeline-org">Ram Krishan Paramhans Sr. Sec. School · Rohtak</span>
+                  <p class="timeline-desc">Graduated with a stellar academic distinction of 92.6%.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS SECTION -->
+    <section id="skills" class="section alt-bg">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Technical Competencies</span>
+          <h2 class="section-title">Skills &amp; <span class="gradient-text">technologies</span></h2>
+          <p class="section-subtitle">Structured technical stack tailored for software engineering, full-stack development, and data science.</p>
+        </div>
+
+        <div class="skills-grid">
+          <!-- Card 1: Programming Languages -->
+          <div class="skill-group-card reveal">
+            <div class="skill-header">
+              <div class="skill-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+              </div>
+              <h3>Programming Languages</h3>
+            </div>
+            <div class="skill-tags">
+              <span class="skill-pill">Python</span>
+              <span class="skill-pill">Java</span>
+              <span class="skill-pill">C</span>
+              <span class="skill-pill">JavaScript (ES6+)</span>
+              <span class="skill-pill">SQL</span>
+            </div>
+          </div>
+
+          <!-- Card 2: Frontend -->
+          <div class="skill-group-card reveal">
+            <div class="skill-header">
+              <div class="skill-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+              </div>
+              <h3>Frontend Development</h3>
+            </div>
+            <div class="skill-tags">
+              <span class="skill-pill">React.js</span>
+              <span class="skill-pill">HTML5</span>
+              <span class="skill-pill">CSS3 / Modern CSS</span>
+              <span class="skill-pill">Responsive Design</span>
+              <span class="skill-pill">DOM Architecture</span>
+            </div>
+          </div>
+
+          <!-- Card 3: Backend -->
+          <div class="skill-group-card reveal">
+            <div class="skill-header">
+              <div class="skill-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="8" rx="2" ry="2"/><rect x="2" y="14" width="20" height="8" rx="2" ry="2"/><line x1="6" y1="6" x2="6.01" y2="6"/><line x1="6" y1="18" x2="6.01" y2="18"/></svg>
+              </div>
+              <h3>Backend &amp; APIs</h3>
+            </div>
+            <div class="skill-tags">
+              <span class="skill-pill">Node.js</span>
+              <span class="skill-pill">Express.js</span>
+              <span class="skill-pill">RESTful APIs</span>
+              <span class="skill-pill">JWT Authentication</span>
+              <span class="skill-pill">Middleware Architecture</span>
+            </div>
+          </div>
+
+          <!-- Card 4: Machine Learning -->
+          <div class="skill-group-card reveal">
+            <div class="skill-header">
+              <div class="skill-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2a10 10 0 1 0 10 10H12V2z"/><path d="M12 12L2.1 12a10 10 0 0 1 9.9-10v10z"/><path d="M12 12V2.1A10 10 0 0 1 21.9 12H12z"/></svg>
+              </div>
+              <h3>Machine Learning &amp; AI</h3>
+            </div>
+            <div class="skill-tags">
+              <span class="skill-pill">Scikit-learn</span>
+              <span class="skill-pill">Computer Vision (OpenCV)</span>
+              <span class="skill-pill">NLP &amp; TF-IDF</span>
+              <span class="skill-pill">Feature Engineering</span>
+              <span class="skill-pill">Model Evaluation</span>
+            </div>
+          </div>
+
+          <!-- Card 5: Data Science -->
+          <div class="skill-group-card reveal">
+            <div class="skill-header">
+              <div class="skill-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg>
+              </div>
+              <h3>Data Science &amp; Analytics</h3>
+            </div>
+            <div class="skill-tags">
+              <span class="skill-pill">Pandas</span>
+              <span class="skill-pill">NumPy</span>
+              <span class="skill-pill">Matplotlib &amp; Seaborn</span>
+              <span class="skill-pill">Power BI</span>
+              <span class="skill-pill">Exploratory Data Analysis (EDA)</span>
+            </div>
+          </div>
+
+          <!-- Card 6: Databases -->
+          <div class="skill-group-card reveal">
+            <div class="skill-header">
+              <div class="skill-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"/><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"/></svg>
+              </div>
+              <h3>Databases</h3>
+            </div>
+            <div class="skill-tags">
+              <span class="skill-pill">MySQL</span>
+              <span class="skill-pill">PostgreSQL</span>
+              <span class="skill-pill">MongoDB</span>
+              <span class="skill-pill">Relational Schema Design</span>
+            </div>
+          </div>
+
+          <!-- Card 7: Core & Tools -->
+          <div class="skill-group-card reveal">
+            <div class="skill-header">
+              <div class="skill-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
+              </div>
+              <h3>Developer Tools &amp; Core CS</h3>
+            </div>
+            <div class="skill-tags">
+              <span class="skill-pill">Git &amp; GitHub</span>
+              <span class="skill-pill">Data Structures</span>
+              <span class="skill-pill">Algorithms</span>
+              <span class="skill-pill">Postman / API Testing</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS SECTION -->
+    <section id="projects" class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Featured Work</span>
+          <h2 class="section-title">Engineered <span class="gradient-text">products</span></h2>
+          <p class="section-subtitle">A collection of real-world applications spanning full-stack development, machine learning, computer vision, and data analytics.</p>
+        </div>
+
+        <div class="project-filters reveal">
+          <button class="filter-btn active" data-filter="all">All Projects</button>
+          <button class="filter-btn" data-filter="fullstack">Full-Stack</button>
+          <button class="filter-btn" data-filter="data">Data Science / ML</button>
+          <button class="filter-btn" data-filter="games">Algorithms &amp; Games</button>
+        </div>
+
+        <div class="projects-grid">
+          <!-- Project 1: Karma Score -->
+          <div class="project-card reveal" data-category="fullstack">
+            <div class="project-image-container">
+              <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=800&q=80" alt="Karma Score HR Reliability Tool" class="project-image" />
+              <div class="project-overlay"></div>
+            </div>
+            <div class="project-content">
+              <div class="project-badges">
+                <span class="badge badge-primary">Full-Stack</span>
+                <span class="badge badge-accent">HR Tech</span>
+              </div>
+              <h3 class="project-title">Karma Score — HR Reliability Platform</h3>
+              <p class="project-elevator">Full-stack employee reliability scoring tool utilizing tenure analytics, peer evaluations, and manager feedback.</p>
+
+              <div class="project-details">
+                <div class="detail-block">
+                  <strong>Problem:</strong> HR teams lack objective, data-backed quantitative metrics to evaluate employee credibility and tenure stability.
+                </div>
+                <div class="detail-block">
+                  <strong>Solution:</strong> Developed a weighted credibility scoring algorithm using REST APIs and relational database architecture to generate unbiased reliability ratings.
+                </div>
+              </div>
+
+              <div class="project-tech">
+                <span class="tech-tag">React</span>
+                <span class="tech-tag">Node.js</span>
+                <span class="tech-tag">REST APIs</span>
+                <span class="tech-tag">MySQL</span>
+                <span class="tech-tag">JWT Auth</span>
+              </div>
+
+              <div class="project-links">
+                <a href="https://github.com/harshit20-05/KARMA-SCORE-" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+                  GitHub Repository
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 2: Developer Intelligence & Career Analytics Platform -->
+          <div class="project-card reveal" data-category="data">
+            <div class="project-image-container">
+              <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=800&q=80" alt="Developer Intelligence & Career Analytics Platform" class="project-image" />
+              <div class="project-overlay"></div>
+            </div>
+            <div class="project-content">
+              <div class="project-badges">
+                <span class="badge badge-primary">Data Analytics</span>
+                <span class="badge badge-accent">Developer Tools</span>
+              </div>
+              <h3 class="project-title">Developer Intelligence &amp; Career Analytics</h3>
+              <p class="project-elevator">Engineering metrics platform tracking code contribution velocity, skill growth trajectory, and developer proficiency benchmarks.</p>
+
+              <div class="project-details">
+                <div class="detail-block">
+                  <strong>Problem:</strong> Software engineers and tech leads lack centralized quantitative platforms to analyze career progression, skill velocity, and code impact.
+                </div>
+                <div class="detail-block">
+                  <strong>Solution:</strong> Built a data analytics platform that ingests contribution data and visualizes skill mastery metrics with interactive dashboard analytics.
+                </div>
+              </div>
+
+              <div class="project-tech">
+                <span class="tech-tag">Python</span>
+                <span class="tech-tag">Data Analytics</span>
+                <span class="tech-tag">Pandas</span>
+                <span class="tech-tag">React</span>
+                <span class="tech-tag">REST APIs</span>
+              </div>
+
+              <div class="project-links">
+                <a href="https://github.com/harshit20-05/Developer-Intelligence-Career-Analytics-Platform" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+                  GitHub Repository
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 3: Smart ATS Resume Analyzer -->
+          <div class="project-card reveal" data-category="data">
+            <div class="project-image-container">
+              <img src="https://images.unsplash.com/photo-1586281380349-632531db7ed4?auto=format&fit=crop&w=800&q=80" alt="Smart ATS Resume Analyzer & Job Match Predictor" class="project-image" />
+              <div class="project-overlay"></div>
+            </div>
+            <div class="project-content">
+              <div class="project-badges">
+                <span class="badge badge-accent">NLP</span>
+                <span class="badge badge-success">AI / ATS</span>
+              </div>
+              <h3 class="project-title">Smart ATS Resume Analyzer &amp; Job Matcher</h3>
+              <p class="project-elevator">AI-driven applicant tracking analyzer matching candidate resumes against target job descriptions with keyword alignment scoring.</p>
+
+              <div class="project-details">
+                <div class="detail-block">
+                  <strong>Problem:</strong> Job applicants lack automated insight into how resume keyword density and formatting fare against ATS parsers.
+                </div>
+                <div class="detail-block">
+                  <strong>Solution:</strong> Engineered an NLP evaluation pipeline using TF-IDF and semantic similarity vectors to predict job match scores and optimize keywords.
+                </div>
+              </div>
+
+              <div class="project-tech">
+                <span class="tech-tag">Python</span>
+                <span class="tech-tag">NLP</span>
+                <span class="tech-tag">Scikit-learn</span>
+                <span class="tech-tag">TF-IDF</span>
+                <span class="tech-tag">Streamlit</span>
+              </div>
+
+              <div class="project-links">
+                <a href="https://github.com/harshit20-05/Smart-ATS-Resume-Analyzer-Job-Match-Predictor" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+                  GitHub Repository
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 4: Driver Drowsiness Detection -->
+          <div class="project-card reveal" data-category="data">
+            <div class="project-image-container">
+              <img src="https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?auto=format&fit=crop&w=800&q=80" alt="Driver Drowsiness Detection using Computer Vision" class="project-image" />
+              <div class="project-overlay"></div>
+            </div>
+            <div class="project-content">
+              <div class="project-badges">
+                <span class="badge badge-primary">Computer Vision</span>
+                <span class="badge badge-accent">Deep Learning</span>
+              </div>
+              <h3 class="project-title">Driver Drowsiness Detection System</h3>
+              <p class="project-elevator">Real-time driver safety monitoring system using computer vision to detect facial landmark fatigue indicators and avert accidents.</p>
+
+              <div class="project-details">
+                <div class="detail-block">
+                  <strong>Problem:</strong> Driver fatigue and microsleep lead to fatal vehicular accidents, requiring zero-latency real-time alertness monitoring.
+                </div>
+                <div class="detail-block">
+                  <strong>Solution:</strong> Applied OpenCV and facial landmark detection calculating Eye Aspect Ratio (EAR) and yawn frequency to trigger instant acoustic safety alerts.
+                </div>
+              </div>
+
+              <div class="project-tech">
+                <span class="tech-tag">Python</span>
+                <span class="tech-tag">OpenCV</span>
+                <span class="tech-tag">Computer Vision</span>
+                <span class="tech-tag">Dlib</span>
+                <span class="tech-tag">Deep Learning</span>
+              </div>
+
+              <div class="project-links">
+                <a href="https://github.com/harshit20-05/Driver-Drowsiness-Detection-using-Computer-Vision" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+                  GitHub Repository
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 5: Real Estate Analytics -->
+          <div class="project-card reveal" data-category="data">
+            <div class="project-image-container">
+              <img src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=800&q=80" alt="Real Estate Investment Dashboard" class="project-image" />
+              <div class="project-overlay"></div>
+            </div>
+            <div class="project-content">
+              <div class="project-badges">
+                <span class="badge badge-accent">Data Analytics</span>
+                <span class="badge badge-success">Power BI</span>
+              </div>
+              <h3 class="project-title">Real Estate Investment Analytics</h3>
+              <p class="project-elevator">Interactive analytical dashboard evaluating 9,000+ real estate property records to drive investment decisions.</p>
+
+              <div class="project-details">
+                <div class="detail-block">
+                  <strong>Problem:</strong> Real estate investors struggle to draw fast quantitative insights from raw, unstandardized property listings.
+                </div>
+                <div class="detail-block">
+                  <strong>Solution:</strong> Engineered Python cleaning scripts and built interactive Power BI dashboards with 10+ KPI slicers, cutting evaluation time by 20%.
+                </div>
+              </div>
+
+              <div class="project-tech">
+                <span class="tech-tag">Python</span>
+                <span class="tech-tag">Pandas</span>
+                <span class="tech-tag">Power BI</span>
+                <span class="tech-tag">SQL</span>
+                <span class="tech-tag">Matplotlib</span>
+              </div>
+
+              <div class="project-links">
+                <a href="https://github.com/harshit20-05/REAL-ESTATE-INVESTMENT-ANALYSIS" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+                  GitHub Repository
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 6: Sudoku Game -->
+          <div class="project-card reveal" data-category="games">
+            <div class="project-image-container">
+              <img src="https://images.unsplash.com/photo-1611162617474-5b21e879e113?auto=format&fit=crop&w=800&q=80" alt="Sudoku Game and Backtracking Solver" class="project-image" />
+              <div class="project-overlay"></div>
+            </div>
+            <div class="project-content">
+              <div class="project-badges">
+                <span class="badge badge-primary">Algorithms</span>
+                <span class="badge badge-success">Game Dev</span>
+              </div>
+              <h3 class="project-title">Sudoku Engine &amp; Solver</h3>
+              <p class="project-elevator">Browser-based Sudoku application with puzzle generation, real-time constraint validation, and recursive backtracking solver.</p>
+
+              <div class="project-details">
+                <div class="detail-block">
+                  <strong>Problem:</strong> Standard recursive backtracking solvers can cause main-thread UI freezing during high-complexity puzzle resolution.
+                </div>
+                <div class="detail-block">
+                  <strong>Solution:</strong> Optimized search space constraints using JS Set data structures for O(1) row/col lookups, cutting computation time by 40%.
+                </div>
+              </div>
+
+              <div class="project-tech">
+                <span class="tech-tag">JavaScript (ES6+)</span>
+                <span class="tech-tag">Backtracking</span>
+                <span class="tech-tag">HTML5</span>
+                <span class="tech-tag">CSS3</span>
+              </div>
+
+              <div class="project-links">
+                <a href="https://github.com/harshit20-05/Sudoku-Game" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+                  GitHub Repository
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 7: Study Flow AI -->
+          <div class="project-card reveal" data-category="fullstack">
+            <div class="project-image-container">
+              <img src="https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=800&q=80" alt="Study Flow AI" class="project-image" />
+              <div class="project-overlay"></div>
+            </div>
+            <div class="project-content">
+              <div class="project-badges">
+                <span class="badge badge-accent">AI Assistant</span>
+                <span class="badge badge-primary">Productivity</span>
+              </div>
+              <h3 class="project-title">Study Flow AI</h3>
+              <p class="project-elevator">AI-powered study planner that generates adaptive study schedules tailored to user learning progress and deadline constraints.</p>
+
+              <div class="project-details">
+                <div class="detail-block">
+                  <strong>Problem:</strong> Students struggle to build adaptive study timetables that automatically adjust when topic difficulty or pace changes.
+                </div>
+                <div class="detail-block">
+                  <strong>Solution:</strong> Built an intelligent scheduling logic engine in Python &amp; React that dynamically recalculates study timelines based on progress feedback.
+                </div>
+              </div>
+
+              <div class="project-tech">
+                <span class="tech-tag">Python</span>
+                <span class="tech-tag">AI/ML</span>
+                <span class="tech-tag">React</span>
+                <span class="tech-tag">REST APIs</span>
+              </div>
+
+              <div class="project-links">
+                <a href="https://github.com/harshit20-05/Study-Flow-AI" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+                  GitHub Repository
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CERTIFICATIONS SECTION -->
+    <section id="certifications" class="section alt-bg">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Verified Knowledge</span>
+          <h2 class="section-title">Certifications &amp; <span class="gradient-text">credentials</span></h2>
+          <p class="section-subtitle">Professional certifications demonstrating specialized expertise in Data Analytics, Machine Learning, Operating Systems, and C Engineering.</p>
+        </div>
+
+        <div class="certs-grid">
+          <!-- Cert 1 -->
+          <div class="cert-card reveal">
+            <div class="cert-image-wrap" onclick="openCertModal('cert1.jpg', 'FLAMES \'25 Data Analytics &amp; Industry Tools — W3grads')">
+              <img src="cert1.jpg" alt="Data Analytics Certificate" class="cert-thumbnail" />
+              <div class="cert-zoom-overlay">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg>
+                <span>Click to Preview</span>
+              </div>
+            </div>
+            <div class="cert-body">
+              <span class="cert-org">W3grads</span>
+              <h3 class="cert-name">Data Analytics &amp; Industry Tools</h3>
+              <p class="cert-meta">FLAMES '25 Summer Training Program · Jul 2025</p>
+              <div class="cert-skills">
+                <span class="cert-skill-tag">Data Analytics</span>
+                <span class="cert-skill-tag">EDA</span>
+                <span class="cert-skill-tag">Industrial Tools</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Cert 2 -->
+          <div class="cert-card reveal">
+            <div class="cert-image-wrap" onclick="openCertModal('cert2.jpg', 'Spotify Recommendation ML Masterclass — Physics Wallah')">
+              <img src="cert2.jpg" alt="Spotify ML Certificate" class="cert-thumbnail" />
+              <div class="cert-zoom-overlay">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg>
+                <span>Click to Preview</span>
+              </div>
+            </div>
+            <div class="cert-body">
+              <span class="cert-org">Physics Wallah</span>
+              <h3 class="cert-name">How Spotify Recommends Music: ML Masterclass</h3>
+              <p class="cert-meta">Issued: Jan 19, 2025 · ID: 67c502e0-135f-4029-8ad5-ddc74207c042</p>
+              <div class="cert-skills">
+                <span class="cert-skill-tag">Data Science</span>
+                <span class="cert-skill-tag">Recommendation Engines</span>
+                <span class="cert-skill-tag">ML</span>
+              </div>
+              <a href="https://learn.pwskills.com/certificate/67c502e0-135f-4029-8ad5-ddc74207c042" target="_blank" rel="noopener noreferrer" class="cert-verify-btn">
+                Verify Credential →
+              </a>
+            </div>
+          </div>
+
+          <!-- Cert 3 -->
+          <div class="cert-card reveal">
+            <div class="cert-image-wrap" onclick="openCertModal('cert3.jpg', 'Hardware and Operating Systems — IBM &amp; Coursera')">
+              <img src="cert3.jpg" alt="IBM OS Certificate" class="cert-thumbnail" />
+              <div class="cert-zoom-overlay">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg>
+                <span>Click to Preview</span>
+              </div>
+            </div>
+            <div class="cert-body">
+              <span class="cert-org">IBM · Coursera</span>
+              <h3 class="cert-name">Introduction to Hardware &amp; Operating Systems</h3>
+              <p class="cert-meta">Issued: Sep 13, 2024</p>
+              <div class="cert-skills">
+                <span class="cert-skill-tag">Hardware</span>
+                <span class="cert-skill-tag">Operating Systems</span>
+                <span class="cert-skill-tag">Systems</span>
+              </div>
+              <a href="https://coursera.org/verify/N6JQ49JCJ39X" target="_blank" rel="noopener noreferrer" class="cert-verify-btn">
+                Verify Credential →
+              </a>
+            </div>
+          </div>
+
+          <!-- Cert 4 -->
+          <div class="cert-card reveal">
+            <div class="cert-image-wrap" onclick="openCertModal('cert4.jpg', 'Mastering in C: Basic to Beyond — CSE Pathshala')">
+              <img src="cert4.jpg" alt="Mastering C Certificate" class="cert-thumbnail" />
+              <div class="cert-zoom-overlay">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg>
+                <span>Click to Preview</span>
+              </div>
+            </div>
+            <div class="cert-body">
+              <span class="cert-org">CSE Pathshala</span>
+              <h3 class="cert-name">Mastering in C: Basic to Beyond</h3>
+              <p class="cert-meta">25 Hours Live Course · Issued: Mar 25, 2024 · ID: CP-20240203-CP176</p>
+              <div class="cert-skills">
+                <span class="cert-skill-tag">C Language</span>
+                <span class="cert-skill-tag">Data Structures</span>
+                <span class="cert-skill-tag">Pointers &amp; Memory</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Cert 5 -->
+          <div class="cert-card reveal">
+            <div class="cert-image-wrap" onclick="openCertModal('cert5.jpg', 'Digital Systems: From Logic Gates to Processors — Universitat Autònoma de Barcelona &amp; Coursera')">
+              <img src="cert5.jpg" alt="Digital Systems Certificate" class="cert-thumbnail" />
+              <div class="cert-zoom-overlay">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg>
+                <span>Click to Preview</span>
+              </div>
+            </div>
+            <div class="cert-body">
+              <span class="cert-org">Universitat Autònoma de Barcelona · Coursera</span>
+              <h3 class="cert-name">Digital Systems: Logic Gates to Processors</h3>
+              <p class="cert-meta">Issued: Oct 1, 2024</p>
+              <div class="cert-skills">
+                <span class="cert-skill-tag">Digital Logic</span>
+                <span class="cert-skill-tag">Logic Gates</span>
+                <span class="cert-skill-tag">Processor Architecture</span>
+              </div>
+              <a href="https://coursera.org/verify/6O8M2XDMDOE9" target="_blank" rel="noopener noreferrer" class="cert-verify-btn">
+                Verify Credential →
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE SECTION -->
+    <section id="experience" class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Work &amp; Impact</span>
+          <h2 class="section-title">Industry <span class="gradient-text">experience</span></h2>
+          <p class="section-subtitle">Real-world experience applying data science, analytics, and software practices.</p>
+        </div>
+
+        <div class="experience-timeline">
+          <div class="exp-card reveal">
+            <div class="exp-header">
+              <div>
+                <span class="exp-badge">Internship</span>
+                <h3 class="exp-role">Data Analytics &amp; Machine Learning Intern</h3>
+                <span class="exp-company">W3 Grads</span>
+              </div>
+              <span class="exp-period">Jun 2025 — Aug 2025</span>
+            </div>
+            <ul class="exp-highlights">
+              <li>Engineered data preprocessing pipelines and conducted Exploratory Data Analysis (EDA) on large-scale datasets using Python, Pandas, and Seaborn.</li>
+              <li>Trained and evaluated machine learning predictive models, performing feature selection and hyperparameter optimization to improve model accuracy.</li>
+              <li>Collaborated on real-world industrial data analytics projects, delivering statistical reports and visual insights for decision making.</li>
+            </ul>
+          </div>
+
+          <div class="exp-card reveal">
+            <div class="exp-header">
+              <div>
+                <span class="exp-badge">Volunteer</span>
+                <h3 class="exp-role">Community Outreach Volunteer</h3>
+                <span class="exp-company">Volunteer Organisation</span>
+              </div>
+              <span class="exp-period">Ongoing</span>
+            </div>
+            <ul class="exp-highlights">
+              <li>Coordinated community outreach events, supporting educational initiatives and resources for underprivileged students.</li>
+              <li>Strengthened cross-functional collaboration, communication, and team leadership in fast-moving volunteer environments.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ACHIEVEMENTS SECTION -->
+    <section id="achievements" class="section alt-bg">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Milestones</span>
+          <h2 class="section-title">Algorithmic <span class="gradient-text">achievements</span></h2>
+        </div>
+
+        <div class="achievements-grid">
+          <div class="achievement-card reveal">
+            <div class="achievement-icon">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            </div>
+            <div class="achievement-content">
+              <span class="achievement-stat">350+</span>
+              <h3 class="achievement-title">DSA Problems Solved</h3>
+              <p class="achievement-desc">Active problem solver on LeetCode &amp; CodeChef (2-Star rated), focusing on arrays, trees, dynamic programming, and graph algorithms.</p>
+            </div>
+          </div>
+
+          <div class="achievement-card reveal">
+            <div class="achievement-icon">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+            </div>
+            <div class="achievement-content">
+              <span class="achievement-stat">92.6% &amp; 7.4</span>
+              <h3 class="achievement-title">Academic Excellence</h3>
+              <p class="achievement-desc">Consistently strong academic performance from 92.6% in 10th grade to 7.4 CGPA in B.Tech CSE (Data Science &amp; ML) at LPU.</p>
+            </div>
+          </div>
+
+          <div class="achievement-card reveal">
+            <div class="achievement-icon">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="8" r="7"/><polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"/></svg>
+            </div>
+            <div class="achievement-content">
+              <span class="achievement-stat">5+</span>
+              <h3 class="achievement-title">Industry Credentials</h3>
+              <p class="achievement-desc">Certified in Data Analytics, Machine Learning (Physics Wallah), Systems Architecture (IBM), and C Programming.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact" class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Get in Touch</span>
+          <h2 class="section-title">Let's build something <span class="gradient-text">great together</span></h2>
+          <p class="section-subtitle">Whether you have an opportunity, a project proposal, or just want to connect — feel free to reach out.</p>
+        </div>
+
+        <div class="contact-card glass-card reveal">
+          <div class="contact-grid">
+            <div class="contact-info">
+              <h3 class="contact-heading">Contact Information</h3>
+              <p class="contact-text">Currently open for full-time Software Engineer, Data Scientist, and ML Engineer positions as well as internships.</p>
+
+              <div class="contact-methods">
+                <a href="mailto:attriharshit2005@gmail.com" class="contact-item">
+                  <div class="contact-icon">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                  </div>
+                  <div>
+                    <span class="contact-label">Email</span>
+                    <span class="contact-value">attriharshit2005@gmail.com</span>
+                  </div>
+                </a>
+
+                <a href="https://linkedin.com/in/harshit-attri-" target="_blank" rel="noopener noreferrer" class="contact-item">
+                  <div class="contact-icon">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+                  </div>
+                  <div>
+                    <span class="contact-label">LinkedIn</span>
+                    <span class="contact-value">linkedin.com/in/harshit-attri-</span>
+                  </div>
+                </a>
+
+                <a href="https://github.com/harshit20-05" target="_blank" rel="noopener noreferrer" class="contact-item">
+                  <div class="contact-icon">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+                  </div>
+                  <div>
+                    <span class="contact-label">GitHub</span>
+                    <span class="contact-value">github.com/harshit20-05</span>
+                  </div>
+                </a>
+
+                <a href="tel:+919034126112" class="contact-item">
+                  <div class="contact-icon">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                  </div>
+                  <div>
+                    <span class="contact-label">Phone</span>
+                    <span class="contact-value">+91 90341 26112</span>
+                  </div>
+                </a>
+              </div>
+            </div>
+
+            <div class="contact-form-wrap">
+              <form id="contact-form" class="contact-form" onsubmit="handleFormSubmit(event)">
+                <div class="form-group">
+                  <label for="form-name">Your Name</label>
+                  <input type="text" id="form-name" required placeholder="Jane Doe" class="form-input" />
+                </div>
+                <div class="form-group">
+                  <label for="form-email">Your Email</label>
+                  <input type="email" id="form-email" required placeholder="jane@company.com" class="form-input" />
+                </div>
+                <div class="form-group">
+                  <label for="form-subject">Subject</label>
+                  <input type="text" id="form-subject" placeholder="Role Opportunity / Project Inquiry" class="form-input" />
+                </div>
+                <div class="form-group">
+                  <label for="form-message">Message</label>
+                  <textarea id="form-message" required rows="4" placeholder="Hello Harshit, I would love to connect regarding..." class="form-input"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary form-submit-btn">
+                  Send Message
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+                </button>
+                <div id="form-status" class="form-status"></div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <div class="footer-brand">
+        <a href="#hero" class="footer-logo">Harshit Attri<span class="dot">.</span></a>
+        <p class="footer-tagline">Building intelligent systems and scalable software solutions.</p>
+      </div>
+
+      <div class="footer-links">
+        <a href="#hero">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 Harshit Attri. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Certificate Image Lightbox Modal -->
+  <div id="cert-modal" class="modal" onclick="closeCertModal()">
+    <div class="modal-content" onclick="event.stopPropagation()">
+      <button class="modal-close-btn" onclick="closeCertModal()" aria-label="Close image modal">&times;</button>
+      <img id="modal-img" src="" alt="Certificate View" class="modal-image" />
+      <p id="modal-caption" class="modal-caption"></p>
+    </div>
+  </div>
+
+  <!-- GitHub Calendar JS -->
+  <script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script>
+  <link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css" />
+
+  <script src="script.js"></script>
+</body>
+
+</html>
